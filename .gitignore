@@ -32,6 +32,9 @@
 *.a
 *.lib
 
+# VSCode Folder
+.vscode/
+
 # Executables
 *.exe
 *.out
