@@ -4,10 +4,10 @@ using namespace std;
 
 int main() {
     // Datos experimentales
-    double D = 17.2;   // mm (distancia entre caras)
-    double d = 8.5;    // mm (diámetro interno)
-    double h = 6.4;    // mm (altura)
-    double m = 12.3;   // g (masa)
+    double D = 19.00;   // mm (distancia entre caras)
+    double d = 12.00;    // mm (diámetro interno)
+    double h = 10.00;    // mm (altura)
+    double m = 15.40;   // g (masa)
 
     // Incertidumbres instrumentales
     double deltaD = 0.05;  // mm
@@ -20,7 +20,7 @@ int main() {
     double sqrt3 = sqrt(3);
 
     // Volumen (mm³)
-    double V_hex = (3 * sqrt3 / 8) * pow(D, 2) * h;
+    double V_hex = (sqrt(3)/2)* pow(D, 2) * h;
     double V_cil = pi * pow(d, 2) / 4 * h;
     double V = V_hex - V_cil;
 
