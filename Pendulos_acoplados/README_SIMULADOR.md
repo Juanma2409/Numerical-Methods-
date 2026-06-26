@@ -66,13 +66,5 @@ El programa imprime en pantalla:
 4. **Comparación** con solución analítica de pequeño ángulo (frecuencias de modos normales).
 5. **Múltiples modos** de excitación inicial (simétrico / antisimétrico).
 6. **Gráficas científicas** listas para el informe (ángulos, fase, energía, deriva).
+7. **Animación** de los resultados.
 
-### Recomendaciones para el Informe
-
-- Incluye la **derivación del Lagrangiano** (sección teórica).
-- Muestra las **ecuaciones de movimiento** finales.
-- Presenta la **tabla de parámetros** usados.
-- Incluye las **gráficas generadas** + explicación física de cada una.
-- Comenta la **deriva de energía** como medida de precisión del método RK4.
-- Compara los **períodos observados** con los analíticos de pequeño ángulo.
-- Opcional: repite la simulación con diferentes valores de `h` y muestra convergencia.
