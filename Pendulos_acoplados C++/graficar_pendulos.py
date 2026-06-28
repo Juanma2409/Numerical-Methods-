@@ -6,9 +6,9 @@ Péndulos Acoplados por Resorte - Simulación RK4
 ============================================================================
 Genera gráficas profesionales:
   - Ángulos vs tiempo
-  - Espacios de fase (retratos de fase)
+  - Espacios de fase 
   - Conservación de energía
-  - Comparación de modos (si aplica)
+  - Comparación de modos 
 """
 
 import numpy as np
@@ -114,7 +114,9 @@ def crear_graficas(t, theta1, omega1, theta2, omega2, E):
     axes[0,1].legend()
     axes[0,1].grid(True)
     
-    # Zoom en energía (para ver deriva)
+    # Zoom en energía 
+
+    
     axes[1,0].plot(t, E - E_mean, color='#2ca02c')
     axes[1,0].set_xlabel('Tiempo $t$ (s)')
     axes[1,0].set_ylabel(r'$E(t) - \langle E \rangle$ (J)')

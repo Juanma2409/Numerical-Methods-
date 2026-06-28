@@ -12,10 +12,10 @@ from matplotlib.patches import Circle, FancyBboxPatch
 import matplotlib.patches as mpatches
 
 # ====================== CONFIGURACIÓN ======================
-L = 1.0                    # Longitud del péndulo (¡debe coincidir con tu simulación C++!)
+L = 1.0                    # Longitud del péndulo (¡Debe coincidir con tu simulación C++!)
 d = 1.0                    # Distancia horizontal entre puntos de suspensión
 TRAIL_LENGTH = 40          # Longitud de la estela (más = más largo el rastro)
-DOWNSAMPLE = 30             # Usar 1 de cada DOWNSAMPLE frames (1 = todos, 2 = más rápido)
+DOWNSAMPLE = 5             # Usar 1 de cada DOWNSAMPLE frames (1 = todos, 2 = más rápido)
 FPS = 30                   # Frames por segundo de la animación
 
 def cargar_datos(archivo='datos_simulacion.dat'):
