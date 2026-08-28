@@ -39,6 +39,7 @@
 *.exe
 *.out
 *.app
+*.wav
 
 # debug information files
 *.dwo
