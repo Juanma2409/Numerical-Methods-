@@ -32,6 +32,7 @@
 *.a
 *.lib
 results/
+results/*.f32
 
 # VSCode Folder
 .vscode/
