@@ -45,3 +45,9 @@ results/*.f32
 
 # debug information files
 *.dwo
+
+# Python VENV
+venv/
+.venv/
+__pycache__/
+*.pyc
