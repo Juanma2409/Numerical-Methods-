@@ -1,0 +1,6 @@
+numpy
+pandas
+scipy
+soundfile
+plotly
+streamlit>=1.62
